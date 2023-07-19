@@ -82,7 +82,7 @@ def wish():
     speak("I am Mark Sir. Please tell me how may I help you")
 
 def Wolframe(query):
-    api_key="QV7KUW-Y7VU6YH239"
+    api_key= "Enter wollframalpha api key here"
     requester=wolframalpha.Client(api_key)
     requested=requester.query(query)
 
@@ -112,12 +112,12 @@ def Calculator(query):
         speak("The value is not answerable")
 
 def latestnews():
-    api_dict={"business" : "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=c5e1cb68de73429fa36213cc5247533b",
-         "entertainment" : "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=c5e1cb68de73429fa36213cc5247533b",
-                "health" : "https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=c5e1cb68de73429fa36213cc5247533b",
-               "science" : "https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=c5e1cb68de73429fa36213cc5247533b",
-            "technology" : "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=c5e1cb68de73429fa36213cc5247533b",
-                "sports" : "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=c5e1cb68de73429fa36213cc5247533b"}
+    api_dict={"business" : "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=Enter news api key here",
+         "entertainment" : "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=Enter news api key here",
+                "health" : "https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=Enter news api key here",
+               "science" : "https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=Enter news api key here",
+            "technology" : "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=Enter news api key here",
+                "sports" : "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=Enter news api key here"}
 
     content= None
     url= None
@@ -263,11 +263,11 @@ def Email():
     
     speak("Speak the message that is to be mailed")
     message=takecommand()
-    pywhatkit.send_mail("atishp590@gmail.com","vzqkwzwlkisyadhd",subject,message,receiver)
+    pywhatkit.send_mail("Enter your email address here","Enter your gmail app id here",subject,message,receiver)
     speak("Email sent successfully")
 
 def Reply(question,chat_log=None):
-    openai.api_key="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"
+    openai.api_key="Enter openai api key here"
     completion=openai.Completion()
 
     chat_log_template='''You : Hello, who are you?
@@ -286,7 +286,7 @@ def Reply(question,chat_log=None):
     speak(answer)
 
 def ai(prompt):
-    openai.api_key = "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"
+    openai.api_key = "Enter openai api key here"
     text = f"OpenAI response for Prompt: {prompt} \n *************************\n\n"
 
     response = openai.Completion.create(
