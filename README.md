@@ -2,8 +2,8 @@
 I have developed this project using Python to provide a user-friendly interface for carrying out a variety of tasks by employing certain well-defined commands, and my role in this project was to design the frontend and backend.
 
 # Features
-It can do a lot of cool things, some of them being:
-Greet user
+It can do a lot of cool things, some of them being:/n
+Greet user/n
 Launch applications/softwares
 Open any website
 Tells about weather of any city
