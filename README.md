@@ -35,9 +35,9 @@ Has a cool Graphical User Interface<br/>
 To run this program you will require a bunch of API keys. Register your API key by clicking the following links<br/>
 
 Wolframalpha<br/>
-News API
+News API<br/>
 Openai API
 
 # Future Improvements
-GUI can be made more attractive to look at and functional
+GUI can be made more attractive to look at and functional<br/>
 More functionalities can be added
